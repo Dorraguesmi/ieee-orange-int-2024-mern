@@ -36,3 +36,164 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.user-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-form h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.user-form .form-group {
+  margin-bottom: 20px;
+}
+
+.user-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.user-form input[type="email"],
+.user-form input[type="text"],
+.user-form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+.user-form input[type="email"]:focus,
+.user-form input[type="text"]:focus,
+.user-form input[type="password"]:focus {
+  outline: none;
+  border-color: #6ea1f5;
+}
+
+.user-form .btn-primary,
+.user-form .btn-secondary {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.user-form .btn-primary {
+  background-color: #6ea1f5;
+  color: #fff;
+}
+
+.user-form .btn-primary:hover {
+  background-color: #4c8bf5;
+}
+
+.user-form .btn-secondary {
+  background-color: #ddd;
+  color: #333;
+}
+
+.user-form .btn-secondary:hover {
+  background-color: #bbb;
+}
+
+.user-form .btn-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-form .btn-group .btn {
+  margin-left: 10px;
+}
+
+
+.user-list {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-list h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.user-list .list-group {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-list .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.user-list .list-group-item:last-child {
+  border-bottom: none;
+}
+
+.user-list .user-details {
+  flex: 1;
+}
+
+.user-list .user-details .user-username {
+  font-weight: bold;
+  color: #333;
+}
+
+.user-list .user-details .user-email {
+  color: #777;
+}
+
+.user-list .user-actions .btn {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.user-list .user-actions .btn-primary {
+  background-color: #6ea1f5;
+  color: #fff;
+}
+
+.user-list .user-actions .btn-primary:hover {
+  background-color: #4c8bf5;
+}
+
+.user-list .user-actions .btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.user-list .user-actions .btn-danger:hover {
+  background-color: #c82333;
+}
